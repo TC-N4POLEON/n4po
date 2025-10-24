@@ -433,43 +433,43 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   homeButton.addEventListener('click', () => {
-    switchTheme('assets/background.mp4', backgroundMusic, 'home-theme');
+    switchTheme('background.mp4', backgroundMusic, 'home-theme');
   });
   homeButton.addEventListener('touchstart', (e) => {
     e.preventDefault();
-    switchTheme('assets/background.mp4', backgroundMusic, 'home-theme');
+    switchTheme('background.mp4', backgroundMusic, 'home-theme');
   });
 
   hackerButton.addEventListener('click', () => {
-    switchTheme('assets/hacker_background.mp4', hackerMusic, 'hacker-theme', hackerOverlay, false);
+    switchTheme('hacker_background.mp4', hackerMusic, 'hacker-theme', hackerOverlay, false);
   });
   hackerButton.addEventListener('touchstart', (e) => {
     e.preventDefault();
-    switchTheme('assets/hacker_background.mp4', hackerMusic, 'hacker-theme', hackerOverlay, false);
+    switchTheme('hacker_background.mp4', hackerMusic, 'hacker-theme', hackerOverlay, false);
   });
 
   rainButton.addEventListener('click', () => {
-    switchTheme('assets/rain_background.mov', rainMusic, 'rain-theme', snowOverlay, true);
+    switchTheme('rain_background.mov', rainMusic, 'rain-theme', snowOverlay, true);
   });
   rainButton.addEventListener('touchstart', (e) => {
     e.preventDefault();
-    switchTheme('assets/rain_background.mov', rainMusic, 'rain-theme', snowOverlay, true);
+    switchTheme('rain_background.mov', rainMusic, 'rain-theme', snowOverlay, true);
   });
 
   animeButton.addEventListener('click', () => {
-    switchTheme('assets/anime_background.mp4', animeMusic, 'anime-theme');
+    switchTheme('anime_background.mp4', animeMusic, 'anime-theme');
   });
   animeButton.addEventListener('touchstart', (e) => {
     e.preventDefault();
-    switchTheme('assets/anime_background.mp4', animeMusic, 'anime-theme');
+    switchTheme('anime_background.mp4', animeMusic, 'anime-theme');
   });
 
   carButton.addEventListener('click', () => {
-    switchTheme('assets/car_background.mp4', carMusic, 'car-theme');
+    switchTheme('car_background.mp4', carMusic, 'car-theme');
   });
   carButton.addEventListener('touchstart', (e) => {
     e.preventDefault();
-    switchTheme('assets/car_background.mp4', carMusic, 'car-theme');
+    switchTheme('car_background.mp4', carMusic, 'car-theme');
   });
 
  
@@ -670,4 +670,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   typeWriterStart();
+
 });
