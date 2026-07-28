@@ -2,7 +2,7 @@
 
 <h3 align="center"> Self learning ,python, c++, c</h3>
 
-<p align="center">~ Profile Visits ~</p>
+
 
 <p align="center">
   <img src="https://tc-n4poleon.github.io/n4po/" />
