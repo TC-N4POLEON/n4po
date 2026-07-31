@@ -238,8 +238,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const bioMessages = [
-    "Game Devloper, Web Devloper.",
-    "\"Games i Play : Valorant , Rocket league, Minecraft...\""
+    "learning rn : Python, C++, C.",
+    "\"Games i Play : Valorant , Rocket league, Minecraft, story games...\""
   ];
   let bioText = '';
   let bioIndex = 0;
